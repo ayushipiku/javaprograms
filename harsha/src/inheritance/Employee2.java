@@ -7,7 +7,7 @@ public class Employee2 extends Employee1 {
 		 total=basicpay+hra-pf-reduction+bonus;
 	   }
 	public void salarySlip()
-	 {  System.out.println("salary slip5");
+	 {  System.out.println("salary slip");
 	    System.out.println("basic pay is:"+basicpay);
 	    System.out.println("basic deduction is:"+reduction);
 		System.out.println("basic bonus is:"+bonus);

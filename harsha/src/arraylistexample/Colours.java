@@ -19,6 +19,7 @@ public class Colours {
 			{
 				break;
 			}
+			else
 			ls.add(str);
 			
 		}
