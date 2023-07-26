@@ -1,14 +1,13 @@
 package multilevel.inheritance;
 
 public class Vehicle {
-	public void printVeh()
-	{
-		System.out.println("Vehicle class");
+	
+	    String brand;
+
+	    public Vehicle(String brand) {
+	    	this.brand= brand;
+	    	System.out.println("Brand name is:" + brand);
+	    }
+
+	    
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}

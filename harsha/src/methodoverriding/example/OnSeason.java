@@ -11,7 +11,7 @@ public class OnSeason {
 		System.out.println("enter the total amt");
 		int total=sc.nextInt();
 		discount=.040f*total;
-		System.out.println("Discounted amt is:"+discount);
+		System.out.println("On season Discounted amt is:"+discount);
 		
 				
 	}

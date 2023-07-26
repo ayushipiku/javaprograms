@@ -2,7 +2,7 @@ package methodoverriding.example;
 
 import java.util.Scanner;
 
-public class OffSeason {
+public class OffSeason extends OnSeason {
 	int total;
 	float discount;
 	public void discount()
@@ -11,14 +11,19 @@ public class OffSeason {
 		System.out.println("enter the total amt");
 		int total=sc.nextInt();
 		discount=.15f*total;
-		System.out.println("Discounted amt is:"+discount);
+		System.out.println(" Off Season Discounted amt is:"+discount);
+		
 		
 				
 	}
 
 	public static void main(String[] args) {
-		OffSeason obj=new OffSeason();
+		OnSeason obj;
+		obj=new OnSeason();
 		obj.discount();
+		obj=new OffSeason();
+		obj.discount();
+		
 		// TODO Auto-generated method stub
 		
 
